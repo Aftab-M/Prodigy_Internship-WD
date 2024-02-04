@@ -1,0 +1,59 @@
+body{
+    background-image: url('https://www.hdwallpapers.in/download/galaxy_space_milky_way_stars_sky_nighttime_dark_background_4k_hd_space-3840x2160.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+  }
+  
+  .time {
+    font-size: 4em;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .lap-times {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .lap-times li {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    animation: fadeIn 0.5s ease;
+  }
+  
